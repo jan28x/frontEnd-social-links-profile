@@ -1,0 +1,102 @@
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+html, body, #container {
+    height: 100%;
+}
+
+body {
+    background-color: hsl(0, 0%, 8%);
+}
+
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#card {
+    width: 384px;
+    height: 600px;
+    margin: auto;
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 10px;
+}
+
+main {
+    text-align: center;
+    margin: auto;
+    width: 100%;
+}
+
+#user #profilePicture {
+    width: 80px;
+    height: auto;
+    border-radius: 50%;
+}
+
+#user h1 {
+    font-family: Inter-SemiBold, Inter, sans-serif;
+    font-weight: 600;
+    color: white;
+    font-size: 24px;
+}
+
+#user h2 {
+    font-family: Inter-SemiBold, Inter, sans-serif;
+    font-weight: 600;
+    color: hsl(75, 94%, 57%);
+    font-size: 14px;
+    line-height: 40%;
+}
+
+#user p {
+    font-family: Inter-Regular, Inter, sans-serif;
+    font-weight: 400;
+    color: white;
+    font-size: 14px;
+    margin: 10% 0 8% 0;
+}
+
+#user {
+    margin: 10% 5%;
+}
+
+#links {
+   text-align: center;
+   margin-top: -3%;   
+}
+
+#links ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#links li {
+    background-color: hsl(0, 0%, 20%);
+    margin: 4% 10%;
+    border-radius: 8px;
+}
+
+#links li a, #links li a:visited, #links li a:active {
+    display: block;
+    padding: 14px 0;
+    text-decoration: none;
+    color: white;
+    font-family: Inter-Bold, Inter, sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    border-radius: 8px;
+}
+
+#links li a:hover {
+    background-color:hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%);
+}
